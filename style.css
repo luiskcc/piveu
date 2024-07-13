@@ -1,0 +1,61 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;       
+}
+
+body {
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url('castells.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav{
+        padding: 20px;
+            display: flex;
+            align-items: center;
+}
+
+
+img{
+        /* Adjust based on your logo size */
+        width: 300px;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: #ffffff;
+    /* Adjust color to ensure visibility on your background */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for better readability */
+    margin-bottom: 30px;
+    /* Adjust as needed */
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: #ffffff;
+}
+
